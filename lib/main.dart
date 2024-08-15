@@ -40,44 +40,44 @@ class ProfileScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           CircleAvatar(
-            radius: 50,
-            backgroundColor: Colors.pink[100],
-            child: Image.network('https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L2pvYjY4Ni0yODYtcC5wbmc.png'),
+            backgroundImage: AssetImage('assets/images/IMG.jpg'),
+            radius: 70,
+            // child: Image.asset('assets/images/IMG.jpg'),
           ),
-          const SizedBox(height: 20),
+          const SizedBox(height: 30),
           const Text(
-            'Verónica Rivadulla Deschamps',
+            'Musoxon Pazliddinov',
             style: TextStyle(
               fontSize: 24,
               fontWeight: FontWeight.bold,
               color: Colors.indigo,
             ),
           ),
-          const SizedBox(height: 10),
+          const SizedBox(height: 20),
           const Text(
-            'UX/UI & Visual Designer\nFront-end developer\nGraphic Designer\nVisual communicator',
+            'Flutter Developer\nProject Manager',
             textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: 16,
               color: Colors.indigo,
             ),
           ),
-          const SizedBox(height: 10),
+          const SizedBox(height: 20),
           const Text(
-            '+10 years experience',
+            '+2 years experience',
             style: TextStyle(
               fontSize: 16,
               color: Colors.indigo,
             ),
           ),
-          const SizedBox(height: 10),
+          const SizedBox(height: 20),
           const Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Icon(Icons.location_on, color: Colors.indigo),
               SizedBox(width: 5),
               Text(
-                'Cureiras, Galvia, Spain',
+                'Tashkent, Uzbekistan',
                 style: TextStyle(
                   fontSize: 16,
                   color: Colors.indigo,
